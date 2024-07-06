@@ -17,10 +17,10 @@ from .utils import (
     verifyLoggerGroup,
 )
 
-LOGS = logging.getLogger("Zelzal")
+LOGS = logging.getLogger("BiLaL")
 cmdhr = Config.COMMAND_HAND_LER
 
-if gvarstatus("ALIVE_NAME") is None:  # Code by T.me/zzzzl1l
+if gvarstatus("ALIVE_NAME") is None:  
     try:
         LOGS.info("⌭ بـدء إضافة الاسـم التلقـائـي ⌭")
         zedub.loop.run_until_complete(autoname())
@@ -29,9 +29,9 @@ if gvarstatus("ALIVE_NAME") is None:  # Code by T.me/zzzzl1l
         LOGS.error(f"- The AutoName {e}")
 
 try:
-    LOGS.info("⌭ بـدء تنزيـل زدثــون ⌭")
+    LOGS.info("⌭ بـدء تنزيـل ماتركـس ⌭")
     zedub.loop.run_until_complete(setup_bot())
-    LOGS.info("✓ تـم تنزيـل زدثــون .. بـنجـاح ✓")
+    LOGS.info("✓ تـم تنزيـل ماتركـس .. بـنجـاح ✓")
 except Exception as e:
     LOGS.error(f"{str(e)}")
     sys.exit()
@@ -64,7 +64,7 @@ async def startup_process():
     await load_plugins("plugins")
     await load_plugins("assistant")
     LOGS.info(
-        f"⌔ تـم تنصيـب زدثــون . . بنجـاح ✓ \n⌔ لـ إظهـار الاوامـر ارسـل (.الاوامر)"
+        f"⌔ تـم تنصيـب ماتركـس . . بنجـاح ✓ \n⌔ لـ إظهـار الاوامـر ارسـل (.الاوامر)"
     )
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
