@@ -196,7 +196,7 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/f821d27af168206b472ad.mp4",
+                "https://graph.org/file/37d87a4cee466aff60c52.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس ماتركـس الخاص بك .. بنجاح 🧸♥️**",
                 buttons=[(Button.url("ماتركــس𓅛", "https://t.me/veevvw"),)],
             )
