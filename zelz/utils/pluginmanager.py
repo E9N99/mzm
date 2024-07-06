@@ -14,8 +14,8 @@ from ..helpers.tools import media_type
 from ..helpers.utils import _zedtools, _zedutils, _format, install_pip, reply_id
 from .decorators import admin_cmd, sudo_cmd
 
-LOGS = logging.getLogger("Zelzal")
-inst_done = "✅ تـم تنصيب سـورس زدثــون .. بنجـاح ⌔\n💡 ثم ارسـل الامـر ( .مساعده ) ⌔\n♥️ قم بالذهاب الى تيليجـرام الان ⌔"
+LOGS = logging.getLogger("BiLaL")
+inst_done = "✅ تـم تنصيب سـورس ماتركـس .. بنجـاح ⌔\n💡 ثم ارسـل الامـر ( .مساعده ) ⌔\n♥️ قم بالذهاب الى تيليجـرام الان ⌔"
 
 def load_module(shortname, plugin_path=None):
     if shortname.startswith("__"):
