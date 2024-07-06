@@ -20,3 +20,4 @@ All rights reserved.
 EOF
 
 gunicorn app:app --daemon && python -m zelz
+#mateix
