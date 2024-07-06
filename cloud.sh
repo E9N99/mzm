@@ -12,10 +12,10 @@ $$$$$$$$\    $$ |   $$ |  $$ |\$$$$$$  |$$ |  $$ |
                                                   
                                                   
                                                   
-Copyright (C) 2020-2024 by Zelzal-SC@Github, < https://github.com/Zelzal-SC >.
+Copyright (C) 2020-2024 by E9N99@Github, < https://github.com/E9N99 >.
 This file is part of < https://github.com/Zelzal-SC/ZTZ > project,
 and is released under the "GNU v3.0 License Agreement".
-Please see < https://github.com/Zelzal-SC/ZTZ/blob/main/LICENSE >
+Please see < https://github.com/E9N99/MZM/blob/main/LICENSE >
 All rights reserved.
 EOF
 
